@@ -1,0 +1,83 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.8974358974358975,
+      "acc_stderr": 0.008099730618142391,
+      "macro_f1": 0.8971344838814719,
+      "macro_f1_stderr": 0.008185566282530313
+    },
+    "kobest_copa": {
+      "acc": 0.737,
+      "acc_stderr": 0.013929286594259732,
+      "macro_f1": 0.7364663443473033,
+      "macro_f1_stderr": 0.013911880958450161
+    },
+    "kobest_hellaswag": {
+      "acc": 0.45,
+      "acc_stderr": 0.022270877485360437,
+      "acc_norm": 0.516,
+      "acc_norm_stderr": 0.0223716109825804,
+      "macro_f1": 0.4481197578792861,
+      "macro_f1_stderr": 0.02230857396092038
+    },
+    "kobest_sentineg": {
+      "acc": 0.5440806045340051,
+      "acc_stderr": 0.025028110474000605,
+      "macro_f1": 0.4293666865197538,
+      "macro_f1_stderr": 0.022475920295526128
+    },
+    "kohatespeech": {
+      "acc": 0.3099787685774947,
+      "acc_stderr": 0.021332820164916607,
+      "macro_f1": 0.24470486111111112,
+      "macro_f1_stderr": 0.016771400486137428
+    },
+    "kohatespeech_apeach": {
+      "acc": 0.5469496021220159,
+      "acc_stderr": 0.008108375350543985,
+      "macro_f1": 0.5102509333066421,
+      "macro_f1_stderr": 0.008176835462643528
+    },
+    "kohatespeech_gen_bias": {
+      "acc": 0.13800424628450106,
+      "acc_stderr": 0.015909255588716954,
+      "macro_f1": 0.12230116765807447,
+      "macro_f1_stderr": 0.01257941538404276
+    },
+    "korunsmile": {
+      "f1": 0.3831975903264236,
+      "f1_stderr": 0.008121929903135055
+    },
+    "nsmc": {
+      "acc": 0.62522,
+      "acc_stderr": 0.0021648308852788593
+    },
+    "pawsx_ko": {
+      "acc": 0.5565,
+      "acc_stderr": 0.011111507899646485
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "kohatespeech": 0,
+    "kohatespeech_apeach": 0,
+    "kohatespeech_gen_bias": 0,
+    "korunsmile": 0,
+    "nsmc": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=yanolja/KoSOLAR-10.7B-v0.2,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "8",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

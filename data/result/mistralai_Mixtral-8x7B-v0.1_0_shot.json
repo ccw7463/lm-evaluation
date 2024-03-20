@@ -1,0 +1,83 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.7471509971509972,
+      "acc_stderr": 0.011603953433494879,
+      "macro_f1": 0.7442708239803184,
+      "macro_f1_stderr": 0.011736960605223655
+    },
+    "kobest_copa": {
+      "acc": 0.664,
+      "acc_stderr": 0.014944140233795023,
+      "macro_f1": 0.6634062486225702,
+      "macro_f1_stderr": 0.014970568752140586
+    },
+    "kobest_hellaswag": {
+      "acc": 0.452,
+      "acc_stderr": 0.022279694107843428,
+      "acc_norm": 0.54,
+      "acc_norm_stderr": 0.022311333245289666,
+      "macro_f1": 0.44875282173202613,
+      "macro_f1_stderr": 0.02220907420309941
+    },
+    "kobest_sentineg": {
+      "acc": 0.6498740554156172,
+      "acc_stderr": 0.023970613717700776,
+      "macro_f1": 0.613361359257313,
+      "macro_f1_stderr": 0.025308021372747867
+    },
+    "kohatespeech": {
+      "acc": 0.4118895966029724,
+      "acc_stderr": 0.022702355150728687,
+      "macro_f1": 0.40110101128639425,
+      "macro_f1_stderr": 0.022651066762232778
+    },
+    "kohatespeech_apeach": {
+      "acc": 0.5145888594164456,
+      "acc_stderr": 0.008140891955490637,
+      "macro_f1": 0.35392611321814854,
+      "macro_f1_stderr": 0.004757933092772651
+    },
+    "kohatespeech_gen_bias": {
+      "acc": 0.14225053078556263,
+      "acc_stderr": 0.016112326276355036,
+      "macro_f1": 0.12453531598513011,
+      "macro_f1_stderr": 0.01239007174718049
+    },
+    "korunsmile": {
+      "f1": 0.35786263136275864,
+      "f1_stderr": 0.007405229062176544
+    },
+    "nsmc": {
+      "acc": 0.58316,
+      "acc_stderr": 0.002204945696317472
+    },
+    "pawsx_ko": {
+      "acc": 0.552,
+      "acc_stderr": 0.011122493197456297
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "kohatespeech": 0,
+    "kohatespeech_apeach": 0,
+    "kohatespeech_gen_bias": 0,
+    "korunsmile": 0,
+    "nsmc": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=mistralai/Mixtral-8x7B-v0.1,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "32",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.5113960113960114,
+      "acc_stderr": 0.013345299863860464,
+      "macro_f1": 0.35461338879835325,
+      "macro_f1_stderr": 0.008055322959822368
+    },
+    "kobest_copa": {
+      "acc": 0.658,
+      "acc_stderr": 0.01500870618212173,
+      "macro_f1": 0.6577316616227121,
+      "macro_f1_stderr": 0.01504091535097874
+    },
+    "kobest_hellaswag": {
+      "acc": 0.454,
+      "acc_stderr": 0.022288147591176952,
+      "acc_norm": 0.542,
+      "acc_norm_stderr": 0.022303966774269955,
+      "macro_f1": 0.4491881401493295,
+      "macro_f1_stderr": 0.02224405538967371
+    },
+    "kobest_sentineg": {
+      "acc": 0.5793450881612091,
+      "acc_stderr": 0.024807560196251337,
+      "macro_f1": 0.5252590348936292,
+      "macro_f1_stderr": 0.025406708333400984
+    },
+    "kohatespeech": {
+      "acc": 0.47770700636942676,
+      "acc_stderr": 0.02304034493106662,
+      "macro_f1": 0.4770029338749717,
+      "macro_f1_stderr": 0.023402526569526513
+    },
+    "kohatespeech_apeach": {
+      "acc": 0.5095490716180371,
+      "acc_stderr": 0.00814287408168772,
+      "macro_f1": 0.33851558894747785,
+      "macro_f1_stderr": 0.0036756650301546386
+    },
+    "kohatespeech_gen_bias": {
+      "acc": 0.14225053078556263,
+      "acc_stderr": 0.016112326276355036,
+      "macro_f1": 0.12453531598513011,
+      "macro_f1_stderr": 0.01239007174718049
+    },
+    "korunsmile": {
+      "f1": 0.30648331029034165,
+      "f1_stderr": 0.0070659363320279625
+    },
+    "nsmc": {
+      "acc": 0.56638,
+      "acc_stderr": 0.002216296945683937
+    },
+    "pawsx_ko": {
+      "acc": 0.539,
+      "acc_stderr": 0.011149065020234342
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "kohatespeech": 0,
+    "kohatespeech_apeach": 0,
+    "kohatespeech_gen_bias": 0,
+    "korunsmile": 0,
+    "nsmc": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=aipart/chatjob_sft_from_Synatra-Mixtral-8x7B-v0.1,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "8",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

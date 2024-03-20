@@ -1,0 +1,83 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.5021367521367521,
+      "acc_stderr": 0.01334864560470119,
+      "macro_f1": 0.33428165007112376,
+      "macro_f1_stderr": 0.005909264029538844
+    },
+    "kobest_copa": {
+      "acc": 0.579,
+      "acc_stderr": 0.015620595475301322,
+      "macro_f1": 0.5785950298236605,
+      "macro_f1_stderr": 0.015631041314496608
+    },
+    "kobest_hellaswag": {
+      "acc": 0.43,
+      "acc_stderr": 0.02216263442665284,
+      "acc_norm": 0.526,
+      "acc_norm_stderr": 0.022352791650914163,
+      "macro_f1": 0.42919026283300693,
+      "macro_f1_stderr": 0.0222050794021161
+    },
+    "kobest_sentineg": {
+      "acc": 0.49622166246851385,
+      "acc_stderr": 0.025125227983562776,
+      "macro_f1": 0.33164983164983164,
+      "macro_f1_stderr": 0.011251703709904144
+    },
+    "kohatespeech": {
+      "acc": 0.37579617834394907,
+      "acc_stderr": 0.022340375179521286,
+      "macro_f1": 0.3369866983153691,
+      "macro_f1_stderr": 0.018859888500686012
+    },
+    "kohatespeech_apeach": {
+      "acc": 0.5098143236074271,
+      "acc_stderr": 0.008142790404217842,
+      "macro_f1": 0.3376669009135629,
+      "macro_f1_stderr": 0.0035712112150843973
+    },
+    "kohatespeech_gen_bias": {
+      "acc": 0.14225053078556263,
+      "acc_stderr": 0.016112326276355036,
+      "macro_f1": 0.12453531598513011,
+      "macro_f1_stderr": 0.01239007174718049
+    },
+    "korunsmile": {
+      "f1": 0.4348081904610046,
+      "f1_stderr": 0.008167654313466144
+    },
+    "nsmc": {
+      "acc": 0.49732,
+      "acc_stderr": 0.002236058217293729
+    },
+    "pawsx_ko": {
+      "acc": 0.4765,
+      "acc_stderr": 0.011170777418517831
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "kohatespeech": 0,
+    "kohatespeech_apeach": 0,
+    "kohatespeech_gen_bias": 0,
+    "korunsmile": 0,
+    "nsmc": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=upstage/SOLAR-10.7B-v1.0,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "64",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
