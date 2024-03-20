@@ -1,0 +1,83 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.8952991452991453,
+      "acc_stderr": 0.008173919624534098,
+      "macro_f1": 0.8948175789207065,
+      "macro_f1_stderr": 0.008238328249364598
+    },
+    "kobest_copa": {
+      "acc": 0.752,
+      "acc_stderr": 0.013663187134877647,
+      "macro_f1": 0.7515617549357065,
+      "macro_f1_stderr": 0.013643694136091034
+    },
+    "kobest_hellaswag": {
+      "acc": 0.49,
+      "acc_stderr": 0.02237859698923078,
+      "acc_norm": 0.534,
+      "acc_norm_stderr": 0.02233126442325838,
+      "macro_f1": 0.4859709354386873,
+      "macro_f1_stderr": 0.022373170788480758
+    },
+    "kobest_sentineg": {
+      "acc": 0.7178841309823678,
+      "acc_stderr": 0.02261483073911314,
+      "macro_f1": 0.7085627392375858,
+      "macro_f1_stderr": 0.023062961862155215
+    },
+    "kohatespeech": {
+      "acc": 0.2760084925690021,
+      "acc_stderr": 0.020619542713153232,
+      "macro_f1": 0.17661677015812458,
+      "macro_f1_stderr": 0.014295850865669698
+    },
+    "kohatespeech_apeach": {
+      "acc": 0.503448275862069,
+      "acc_stderr": 0.008144165815173304,
+      "macro_f1": 0.3580914904082636,
+      "macro_f1_stderr": 0.005336407402519821
+    },
+    "kohatespeech_gen_bias": {
+      "acc": 0.14225053078556263,
+      "acc_stderr": 0.016112326276355036,
+      "macro_f1": 0.12453531598513011,
+      "macro_f1_stderr": 0.01239007174718049
+    },
+    "korunsmile": {
+      "f1": 0.32353517531890724,
+      "f1_stderr": 0.0068280537714287375
+    },
+    "nsmc": {
+      "acc": 0.69728,
+      "acc_stderr": 0.002054676730273783
+    },
+    "pawsx_ko": {
+      "acc": 0.5575,
+      "acc_stderr": 0.01110894141174761
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "kohatespeech": 0,
+    "kohatespeech_apeach": 0,
+    "kohatespeech_gen_bias": 0,
+    "korunsmile": 0,
+    "nsmc": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=yanolja/EEVE-Korean-10.8B-v1.0,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "8",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
