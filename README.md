@@ -1,8 +1,8 @@
 # lm-evaluation
 
-데이터 타입 (AI HUB)
-- data/source_1 : AI 허브 데이터 활용을 위한 기계 번역앱 구축과 번역기 평가 및 신규 말뭉치 구축
-    - type1 : 신규 구축 데이터
-    - type2 : 번역기 평가 데이터
-    - type3 : MTPE 평가 데이터
-- data/source_2 : 한국어-영어 번역(병렬) 말뭉치
+모델 테스트 결과 
+
+- Zero Shot 만 진행
+- Evaluation Ref : https://github.com/Beomi/ko-lm-evaluation-harness
+- 평가 시각화 : https://docs.kanaries.net/pygwalker
+
