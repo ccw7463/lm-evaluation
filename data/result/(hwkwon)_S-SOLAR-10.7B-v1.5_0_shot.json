@@ -1,0 +1,52 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.5035612535612536,
+      "acc_stderr": 0.013348428901951034,
+      "macro_f1": 0.33995811454760677,
+      "macro_f1_stderr": 0.006698682413086487
+    },
+    "kobest_copa": {
+      "acc": 0.799,
+      "acc_stderr": 0.012679107214617333,
+      "macro_f1": 0.7988066531937192,
+      "macro_f1_stderr": 0.012657432096138763
+    },
+    "kobest_hellaswag": {
+      "acc": 0.524,
+      "acc_stderr": 0.0223572738810164,
+      "acc_norm": 0.568,
+      "acc_norm_stderr": 0.02217510926561316,
+      "macro_f1": 0.5225610755086737,
+      "macro_f1_stderr": 0.022423211432645914
+    },
+    "kobest_sentineg": {
+      "acc": 0.7934508816120907,
+      "acc_stderr": 0.020343426461753265,
+      "macro_f1": 0.7902556569249009,
+      "macro_f1_stderr": 0.020698816087070967
+    },
+    "pawsx_ko": {
+      "acc": 0.676,
+      "acc_stderr": 0.010467415315716544
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=hwkwon/S-SOLAR-10.7B-v1.5,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "8",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
