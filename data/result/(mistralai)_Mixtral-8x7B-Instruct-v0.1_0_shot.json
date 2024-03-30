@@ -1,0 +1,52 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.8917378917378918,
+      "acc_stderr": 0.008295222034870894,
+      "macro_f1": 0.891737012987013,
+      "macro_f1_stderr": 0.008304771588645031
+    },
+    "kobest_copa": {
+      "acc": 0.669,
+      "acc_stderr": 0.014888272588203936,
+      "macro_f1": 0.6679210755745417,
+      "macro_f1_stderr": 0.014926379688034359
+    },
+    "kobest_hellaswag": {
+      "acc": 0.464,
+      "acc_stderr": 0.022324981738385253,
+      "acc_norm": 0.55,
+      "acc_norm_stderr": 0.02227087748536044,
+      "macro_f1": 0.4613044953341388,
+      "macro_f1_stderr": 0.02222273419881367
+    },
+    "kobest_sentineg": {
+      "acc": 0.5617128463476071,
+      "acc_stderr": 0.024933827808441392,
+      "macro_f1": 0.4647108052817556,
+      "macro_f1_stderr": 0.024087655409788317
+    },
+    "pawsx_ko": {
+      "acc": 0.5565,
+      "acc_stderr": 0.011111507899646485
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=mistralai/Mixtral-8x7B-Instruct-v0.1,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "8",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
