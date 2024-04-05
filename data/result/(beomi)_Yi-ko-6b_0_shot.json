@@ -1,0 +1,52 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.7094017094017094,
+      "acc_stderr": 0.0121217077034401,
+      "macro_f1": 0.7060464428885481,
+      "macro_f1_stderr": 0.012206752575312625
+    },
+    "kobest_copa": {
+      "acc": 0.772,
+      "acc_stderr": 0.01327374070080449,
+      "macro_f1": 0.7716346153846154,
+      "macro_f1_stderr": 0.013255094482189885
+    },
+    "kobest_hellaswag": {
+      "acc": 0.506,
+      "acc_stderr": 0.022381462412439324,
+      "acc_norm": 0.568,
+      "acc_norm_stderr": 0.022175109265613162,
+      "macro_f1": 0.5031015473198892,
+      "macro_f1_stderr": 0.022471660114510378
+    },
+    "kobest_sentineg": {
+      "acc": 0.5365239294710328,
+      "acc_stderr": 0.025058819823556774,
+      "macro_f1": 0.4043705153294194,
+      "macro_f1_stderr": 0.0206327647150347
+    },
+    "pawsx_ko": {
+      "acc": 0.5145,
+      "acc_stderr": 0.011178432523249468
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=beomi/Yi-Ko-6B,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "8",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

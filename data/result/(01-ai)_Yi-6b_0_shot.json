@@ -1,0 +1,52 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.5021367521367521,
+      "acc_stderr": 0.01334864560470119,
+      "macro_f1": 0.33428165007112376,
+      "macro_f1_stderr": 0.005909264029538844
+    },
+    "kobest_copa": {
+      "acc": 0.544,
+      "acc_stderr": 0.015757928553979166,
+      "macro_f1": 0.5431941945592024,
+      "macro_f1_stderr": 0.0157639934171962
+    },
+    "kobest_hellaswag": {
+      "acc": 0.392,
+      "acc_stderr": 0.02185468495561126,
+      "acc_norm": 0.488,
+      "acc_norm_stderr": 0.02237662679792717,
+      "macro_f1": 0.3856013551665726,
+      "macro_f1_stderr": 0.021609588039490105
+    },
+    "kobest_sentineg": {
+      "acc": 0.6423173803526449,
+      "acc_stderr": 0.024086636726866253,
+      "macro_f1": 0.619608636977058,
+      "macro_f1_stderr": 0.024869481797067588
+    },
+    "pawsx_ko": {
+      "acc": 0.5315,
+      "acc_stderr": 0.011160921022883274
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=01-ai/Yi-6B,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "8",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
