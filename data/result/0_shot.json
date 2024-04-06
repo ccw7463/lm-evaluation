@@ -1,0 +1,52 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.5035612535612536,
+      "acc_stderr": 0.013348428901951034,
+      "macro_f1": 0.33745202290848997,
+      "macro_f1_stderr": 0.006312520577372701
+    },
+    "kobest_copa": {
+      "acc": 0.663,
+      "acc_stderr": 0.014955087918653602,
+      "macro_f1": 0.6625380145419079,
+      "macro_f1_stderr": 0.015016292151793953
+    },
+    "kobest_hellaswag": {
+      "acc": 0.442,
+      "acc_stderr": 0.022231970696321122,
+      "acc_norm": 0.54,
+      "acc_norm_stderr": 0.022311333245289673,
+      "macro_f1": 0.4376148943976194,
+      "macro_f1_stderr": 0.02220957517841122
+    },
+    "kobest_sentineg": {
+      "acc": 0.6473551637279596,
+      "acc_stderr": 0.024010017675851786,
+      "macro_f1": 0.6125425241202387,
+      "macro_f1_stderr": 0.025256682467897192
+    },
+    "pawsx_ko": {
+      "acc": 0.5255,
+      "acc_stderr": 0.01116858288333007
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=maywell/Synatra-Mixtral-8x7B,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "8",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
