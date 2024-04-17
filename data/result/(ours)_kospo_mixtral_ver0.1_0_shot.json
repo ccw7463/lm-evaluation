@@ -1,0 +1,52 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.7777777777777778,
+      "acc_stderr": 0.01109922544775798,
+      "macro_f1": 0.7713164049448713,
+      "macro_f1_stderr": 0.011380010476273177
+    },
+    "kobest_copa": {
+      "acc": 0.64,
+      "acc_stderr": 0.015186527932040119,
+      "macro_f1": 0.6399481525339649,
+      "macro_f1_stderr": 0.015146849570611224
+    },
+    "kobest_hellaswag": {
+      "acc": 0.444,
+      "acc_stderr": 0.022242244375731017,
+      "acc_norm": 0.494,
+      "acc_norm_stderr": 0.022381462412439324,
+      "macro_f1": 0.44044519939142107,
+      "macro_f1_stderr": 0.022273124780509496
+    },
+    "kobest_sentineg": {
+      "acc": 0.6574307304785895,
+      "acc_stderr": 0.023847980511930576,
+      "macro_f1": 0.6507271127671687,
+      "macro_f1_stderr": 0.024117200793924945
+    },
+    "pawsx_ko": {
+      "acc": 0.575,
+      "acc_stderr": 0.01105660998281833
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/workspace/changwoo/weight/hub/merged_model/KOSPO_fine_tuning_from_mixtral_instruct_ver0.3,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "16",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

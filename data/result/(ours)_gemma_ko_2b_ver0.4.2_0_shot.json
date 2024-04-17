@@ -1,0 +1,52 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.5078347578347578,
+      "acc_stderr": 0.013347128611565716,
+      "macro_f1": 0.3480917436001158,
+      "macro_f1_stderr": 0.00749288286654593
+    },
+    "kobest_copa": {
+      "acc": 0.565,
+      "acc_stderr": 0.015685057252717197,
+      "macro_f1": 0.5644664714274987,
+      "macro_f1_stderr": 0.015699516666874812
+    },
+    "kobest_hellaswag": {
+      "acc": 0.384,
+      "acc_stderr": 0.02177236946554719,
+      "acc_norm": 0.488,
+      "acc_norm_stderr": 0.02237662679792717,
+      "macro_f1": 0.3829357558722052,
+      "macro_f1_stderr": 0.021684237492829567
+    },
+    "kobest_sentineg": {
+      "acc": 0.6297229219143576,
+      "acc_stderr": 0.024265574168402047,
+      "macro_f1": 0.6283647386218183,
+      "macro_f1_stderr": 0.024232755369520565
+    },
+    "pawsx_ko": {
+      "acc": 0.4895,
+      "acc_stderr": 0.011180669867648658
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "kobest_sentineg": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=ccw7463/gemma-ko-2b-finetuned_ver0.4.2,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "16",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
