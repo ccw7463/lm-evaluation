@@ -1,0 +1,45 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.9408831908831908,
+      "acc_stderr": 0.006296431916570857,
+      "macro_f1": 0.9408644411752617,
+      "macro_f1_stderr": 0.0062878385161756626
+    },
+    "kobest_copa": {
+      "acc": 0.724,
+      "acc_stderr": 0.014142984975740666,
+      "macro_f1": 0.7237834462218379,
+      "macro_f1_stderr": 0.014141548815660994
+    },
+    "kobest_hellaswag": {
+      "acc": 0.472,
+      "acc_stderr": 0.022347949832668086,
+      "acc_norm": 0.522,
+      "acc_norm_stderr": 0.02236139673920787,
+      "macro_f1": 0.4718311449276488,
+      "macro_f1_stderr": 0.022328524715518258
+    },
+    "pawsx_ko": {
+      "acc": 0.5805,
+      "acc_stderr": 0.011037245371590673
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/workspace/changwoo/weight/KOSPO_fine_tuning_from_T3Q_v0.1,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "16",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

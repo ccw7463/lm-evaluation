@@ -1,0 +1,45 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.8910256410256411,
+      "acc_stderr": 0.008319139884937057,
+      "macro_f1": 0.8906247533720879,
+      "macro_f1_stderr": 0.008337941937543948
+    },
+    "kobest_copa": {
+      "acc": 0.731,
+      "acc_stderr": 0.014029819522568198,
+      "macro_f1": 0.7308813186615297,
+      "macro_f1_stderr": 0.014076794309468304
+    },
+    "kobest_hellaswag": {
+      "acc": 0.474,
+      "acc_stderr": 0.02235279165091416,
+      "acc_norm": 0.504,
+      "acc_norm_stderr": 0.02238235778196214,
+      "macro_f1": 0.47178126859052655,
+      "macro_f1_stderr": 0.022389852791172813
+    },
+    "pawsx_ko": {
+      "acc": 0.5425,
+      "acc_stderr": 0.011142663706548614
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/workspace/changwoo/weight/KOSPO_fine_tuning_from_eeve_v0.2,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "16",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
