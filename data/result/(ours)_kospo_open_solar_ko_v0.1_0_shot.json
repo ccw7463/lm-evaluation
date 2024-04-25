@@ -1,0 +1,45 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.8896011396011396,
+      "acc_stderr": 0.008366640817036091,
+      "macro_f1": 0.8896010835956504,
+      "macro_f1_stderr": 0.008371638168877827
+    },
+    "kobest_copa": {
+      "acc": 0.766,
+      "acc_stderr": 0.013394902889660007,
+      "macro_f1": 0.7650375939849624,
+      "macro_f1_stderr": 0.01338173951655618
+    },
+    "kobest_hellaswag": {
+      "acc": 0.47,
+      "acc_stderr": 0.022342748192502846,
+      "acc_norm": 0.502,
+      "acc_norm_stderr": 0.022382894986483524,
+      "macro_f1": 0.4688910056113844,
+      "macro_f1_stderr": 0.022330922153691774
+    },
+    "pawsx_ko": {
+      "acc": 0.566,
+      "acc_stderr": 0.011085280407858918
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=/workspace/changwoo/axolotl/KOSPO_fine_tuning_from_open_solar_ko_v0.1/checkpoint-180,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "16",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
