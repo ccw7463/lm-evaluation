@@ -1,0 +1,45 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.5035612535612536,
+      "acc_stderr": 0.013348428901951034,
+      "macro_f1": 0.33745202290848997,
+      "macro_f1_stderr": 0.006305275007905508
+    },
+    "kobest_copa": {
+      "acc": 0.644,
+      "acc_stderr": 0.01514904265930663,
+      "macro_f1": 0.6438846186164318,
+      "macro_f1_stderr": 0.015131169556128844
+    },
+    "kobest_hellaswag": {
+      "acc": 0.43,
+      "acc_stderr": 0.02216263442665284,
+      "acc_norm": 0.514,
+      "acc_norm_stderr": 0.02237429816635319,
+      "macro_f1": 0.4280882604859425,
+      "macro_f1_stderr": 0.022155244678601037
+    },
+    "pawsx_ko": {
+      "acc": 0.5905,
+      "acc_stderr": 0.010998425236316453
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=Qwen/Qwen1.5-14B-Chat,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "16",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
