@@ -1,8 +1,13 @@
-# lm-evaluation
+# LLM Model Evaluation and Visualization with Pygwalker
 
-모델 테스트 결과 
+This repository contains the results of large language model (LLM) evaluation (lm-evaluation). The evaluation results are visualized using **Pygwalker** for better insights and analysis.
 
-- Zero Shot 만 진행
-- Evaluation Ref : https://github.com/Beomi/ko-lm-evaluation-harness
-- 평가 시각화 : https://docs.kanaries.net/pygwalker
+## Features
+- Evaluation of various LLM models.
+- Visual representation of the evaluation metrics using Pygwalker.
 
+## lm-evaluation repo
+- https://github.com/Beomi/ko-lm-evaluation-harness
+
+## Visualization
+![main](lm-eval.png)
