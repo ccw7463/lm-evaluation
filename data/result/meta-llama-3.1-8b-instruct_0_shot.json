@@ -1,0 +1,45 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.801994301994302,
+      "acc_stderr": 0.010638873620134087,
+      "macro_f1": 0.7977238805970149,
+      "macro_f1_stderr": 0.010809983702218952
+    },
+    "kobest_copa": {
+      "acc": 0.614,
+      "acc_stderr": 0.015402637476784373,
+      "macro_f1": 0.6134418099736019,
+      "macro_f1_stderr": 0.015393086625514387
+    },
+    "kobest_hellaswag": {
+      "acc": 0.438,
+      "acc_stderr": 0.022210326363977413,
+      "acc_norm": 0.562,
+      "acc_norm_stderr": 0.022210326363977417,
+      "macro_f1": 0.4360474560164338,
+      "macro_f1_stderr": 0.02212590532478488
+    },
+    "pawsx_ko": {
+      "acc": 0.6115,
+      "acc_stderr": 0.010901527262192295
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=meta-llama/Meta-Llama-3.1-8B-Instruct,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "32",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

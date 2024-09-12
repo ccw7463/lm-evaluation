@@ -1,0 +1,45 @@
+{
+  "results": {
+    "kobest_boolq": {
+      "acc": 0.7029914529914529,
+      "acc_stderr": 0.012199180592828218,
+      "macro_f1": 0.6799124371886084,
+      "macro_f1_stderr": 0.012872026672038578
+    },
+    "kobest_copa": {
+      "acc": 0.474,
+      "acc_stderr": 0.015797897758042762,
+      "macro_f1": 0.4723452747817154,
+      "macro_f1_stderr": 0.01585828881077152
+    },
+    "kobest_hellaswag": {
+      "acc": 0.41,
+      "acc_stderr": 0.022017482578127683,
+      "acc_norm": 0.488,
+      "acc_norm_stderr": 0.02237662679792717,
+      "macro_f1": 0.4053345758680527,
+      "macro_f1_stderr": 0.021761905056287396
+    },
+    "pawsx_ko": {
+      "acc": 0.529,
+      "acc_stderr": 0.01116431014037372
+    }
+  },
+  "versions": {
+    "kobest_boolq": 0,
+    "kobest_copa": 0,
+    "kobest_hellaswag": 0,
+    "pawsx_ko": 0
+  },
+  "config": {
+    "model": "hf-causal-experimental",
+    "model_args": "pretrained=google/gemma-2-9b-it,use_accelerate=true,trust_remote_code=true",
+    "num_fewshot": 0,
+    "batch_size": "32",
+    "device": null,
+    "no_cache": true,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
