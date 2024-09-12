@@ -1,5 +1,5 @@
 # custom
-data/private/*
+data/private_files/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
